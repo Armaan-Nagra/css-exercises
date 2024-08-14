@@ -17,3 +17,18 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button:hover{
+  border-radius: 10px;
+  font-size: 26px;
+  padding: 24px 32px;
+  transition-duration: 0.5s;
+}
+
+button:not(:hover) {
+  font-size: 18px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+} 
+
